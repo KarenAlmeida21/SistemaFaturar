@@ -8,7 +8,8 @@ public class Fatura {
     public Fatura() {
     }
 
-    public Fatura(double valor, int data, Consumidor consumidor) {
+    public Fatura(
+            double valor, int data, Consumidor consumidor) {
     }
 
     public Fatura(double valorFatura, String dataVencimento) {
@@ -23,6 +24,7 @@ public class Fatura {
     }
 
     public double getValorFatura() {
+
         return valorFatura;
     }
 
