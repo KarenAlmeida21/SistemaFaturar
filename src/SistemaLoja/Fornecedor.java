@@ -26,21 +26,21 @@ public class Fornecedor extends Pessoa {
         return valorCredito;
     }
 
-    public void setValorDivida(double valor_divida) {
-        this.valorDivida = valor_divida;
+    public void setValorDivida(double valorDivida) {
+        this.valorDivida = valorDivida;
     }
 
-    public double getValor_divida() {
+    public double getValorDivida() {
         return valorDivida;
     }
 
-    public Fornecedor(String nome, String endereço, String telefone, double valor_credito, double valor_divida) {
+    public Fornecedor(String nome, String endereço, String telefone, double valorCredito, double valorDivida) {
         super(nome, endereço, telefone);
-        this.valorCredito = valor_credito;
-        this.valorDivida = valor_divida;
+        this.valorCredito = valorCredito;
+        this.valorDivida = valorDivida;
     }
 
-    public double obter_saldo  (){
+    public double obterSaldo  (){
         double saldo= valorCredito - valorDivida;
         return saldo;
     }

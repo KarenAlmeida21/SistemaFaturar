@@ -13,8 +13,8 @@ public class Main {
         System.out.println("Endereço: " + roupa.getEndereço());
         System.out.println("Telefone: " + roupa.getTelefone());
         System.out.println("Crédito: " + roupa.getValorCredito());
-        System.out.println("Divida: " + roupa.getValor_divida());
-        System.out.println("Saldo: " + roupa.obter_saldo());
+        System.out.println("Divida: " + roupa.getValorDivida());
+        System.out.println("Saldo: " + roupa.obterSaldo());
         System.out.println("_______________________________________");
         System.out.println("Colaborador");
         Colaborador loja = new Colaborador("Joao", "hhswhdw", "48t9854", 60, 1500, 75);

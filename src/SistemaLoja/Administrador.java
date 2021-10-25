@@ -10,8 +10,9 @@ public class Administrador extends Colaborador{
     //        //Escreva um programa de teste adequado para esta classe.
     private double ajudaCusto;
 
-    public Administrador(String nome, String endereço, String telefone, int codigo_setor, double salario_base, double imposto, double ajuda_custo) {
-        super(nome, endereço, telefone, codigo_setor, salario_base, imposto);
+
+    public Administrador(String nome, String endereço, String telefone, int codigoSetor, double salarioBase, double imposto, double ajudaCusto) {
+        super(nome, endereço, telefone, codigoSetor, salarioBase, imposto);
         this.ajudaCusto = ajudaCusto;
     }
 
