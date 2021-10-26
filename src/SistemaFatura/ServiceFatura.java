@@ -32,8 +32,7 @@ public class ServiceFatura {
     }
 
 
-    public static Fatura cadastrarFatura(double valorFatura, String dataDaCompra, String emailConsumidor)
-            throws Exception {
+    public static Fatura cadastrarFatura(double valorFatura, String dataDaCompra, String emailConsumidor) throws Exception {
         Consumidor consumidor = new Consumidor(emailConsumidor);
         Fatura fatura = new Fatura(valorFatura, dataDaCompra, consumidor);
         listFatura.add(fatura);
